@@ -1,0 +1,5 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "importHelpers": true /* Import emit helpers from 'tslib'. */,
+  "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+}
