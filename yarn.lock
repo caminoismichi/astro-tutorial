@@ -113,6 +113,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@astrojs/rss@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@astrojs/rss@npm:2.0.0"
+  dependencies:
+    fast-xml-parser: ^4.0.8
+  checksum: 82db559099b6e867c242a7cda891ad3cf8c43896ac98e8f932c33325dae328497e9ac035f34a41ca32eb1ca125d8f960c8e6f070d72aecf32fce52f1a04cb13b
+  languageName: node
+  linkType: hard
+
 "@astrojs/telemetry@npm:^1.0.1":
   version: 1.0.1
   resolution: "@astrojs/telemetry@npm:1.0.1"
@@ -450,6 +459,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@example/minimal@workspace:."
   dependencies:
+    "@astrojs/rss": ^2.0.0
     "@markuplint/astro-parser": ^3.0.0
     "@markuplint/html-parser": ^3.0.0
     "@markuplint/html-spec": ^3.0.1
@@ -2427,6 +2437,17 @@ __metadata:
   version: 2.1.1
   resolution: "fast-safe-stringify@npm:2.1.1"
   checksum: a851cbddc451745662f8f00ddb622d6766f9bd97642dabfd9a405fb0d646d69fc0b9a1243cbf67f5f18a39f40f6fa821737651ff1bceeba06c9992ca2dc5bd3d
+  languageName: node
+  linkType: hard
+
+"fast-xml-parser@npm:^4.0.8":
+  version: 4.0.12
+  resolution: "fast-xml-parser@npm:4.0.12"
+  dependencies:
+    strnum: ^1.0.5
+  bin:
+    fxparser: src/cli/cli.js
+  checksum: afb800fdc39d3c53ce0be76dd57afafc5556790a798524c98bdb984af2adc0d35360d05d1360cdb37db3f6de1fa754ae5596f16934c60b490b22ffb47948846d
   languageName: node
   linkType: hard
 
@@ -5853,6 +5874,13 @@ __metadata:
   version: 3.1.1
   resolution: "strip-json-comments@npm:3.1.1"
   checksum: 492f73e27268f9b1c122733f28ecb0e7e8d8a531a6662efbd08e22cccb3f9475e90a1b82cab06a392f6afae6d2de636f977e231296400d0ec5304ba70f166443
+  languageName: node
+  linkType: hard
+
+"strnum@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "strnum@npm:1.0.5"
+  checksum: 651b2031db5da1bf4a77fdd2f116a8ac8055157c5420f5569f64879133825915ad461513e7202a16d7fec63c54fd822410d0962f8ca12385c4334891b9ae6dd2
   languageName: node
   linkType: hard
 
